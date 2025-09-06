@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WarpVibe - Starfield Simulation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <canvas id="starfield"></canvas>
+        
+        <div class="title-container">
+            <h1 class="title">WARP<span>VIBE</span></h1>
+            <p class="subtitle">INTERSTELLAR JOURNEY</p>
+        </div>
+        
+        <div class="controls">
+            <div class="control-group">
+                <label for="speed">WARP SPEED</label>
+                <input type="range" id="speed" min="1" max="10" value="5">
+                <span class="value-display">5</span>
+            </div>
+            
+            <div class="control-group">
+                <label for="color">STAR COLOR</label>
+                <input type="color" id="color" value="#ffffff">
+            </div>
+            
+            <div class="control-group">
+                <label for="density">STAR DENSITY</label>
+                <input type="range" id="density" min="100" max="1000" step="50" value="500">
+                <span class="value-display">500</span>
+            </div>
+            
+            <div class="control-group">
+                <label for="trail">TRAIL EFFECT</label>
+                <input type="range" id="trail" min="0" max="100" value="80">
+                <span class="value-display">80%</span>
+            </div>
+            
+            <div class="control-group">
+                <label for="glow">GLOW INTENSITY</label>
+                <input type="range" id="glow" min="0" max="20" value="5">
+                <span class="value-display">5</span>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
