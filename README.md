@@ -1,7 +1,5 @@
 # WarpVibe - Immersive Starfield Simulation
 
-![WarpVibe](https://i.imgur.com/placeholder.jpg)
-
 WarpVibe is a browser-based starfield simulation that creates a mesmerizing warp-speed effect. The application uses HTML5 Canvas, CSS, and vanilla JavaScript to render an interactive, customizable starfield that gives users the feeling of traveling through space at light speed.
 
 ## Features
@@ -101,5 +99,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Built with vanilla JavaScript, HTML5, and CSS3
 
 ---
+
 
 Created with ❤️ by Naksh Garg
